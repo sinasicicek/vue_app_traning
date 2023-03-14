@@ -1,0 +1,72 @@
+@media (min-width:320px) and (max-width:375px) 
+{
+    nav > ul {
+       display: flex;
+       flex-direction: column;
+    }
+    nav > ul > li {
+        margin-top: 1rem;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    .contain-upload-item{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .contain-upload-item > button {
+        margin-top: 1rem;
+        margin-left: 0px;
+    }
+    .contain-upload-br{
+        visibility: hidden;
+    }
+    .contain-img > img {
+        max-width: 100%;
+    }
+    /*info bilgi responsive*/
+    .show-img-contain{
+        flex-direction: column;
+    }
+    .show-img{
+       width: 300px !important;
+    }
+    .show-img-info{
+        width: 300px !important;
+    }
+}
+@media (min-width:425px) and (max-width:768px) 
+{
+    nav > ul {
+       display: flex;
+       flex-direction: column;
+    }
+    nav > ul > li {
+        margin-top: 1rem;
+    }
+    #navbar{
+        flex-direction: column;
+    }
+    .contain-upload-item{
+        flex-direction: column;
+        margin-top: 1rem;
+    }
+    .contain-upload-item > button {
+        margin-top: 1rem;
+        margin-left: 0px;
+    }
+    .contain-upload-br{
+        visibility: hidden;
+    }
+    .contain-img > img {
+        max-width: 100%;
+    }
+    
+}
+@media (min-width:1024px) and (max-width:1440px) 
+{
+    .contain-upload-input{
+        margin-left: 1rem;
+    }
+   
+}
